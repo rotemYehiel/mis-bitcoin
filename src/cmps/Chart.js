@@ -28,7 +28,7 @@ const Chart = (props) => {
             window.removeEventListener('resize', updateSize);
         })
     }, [dataToChart, updateSize])
-    console.log("dataToChart in chart:", dataToChart)
+    console.log("dataToChart in chart.values:", dataToChart.values)
     return (
         <section className="chart-cmp">
             <h3>{dataToChart ? dataToChart.description : "No data to display"}</h3>
