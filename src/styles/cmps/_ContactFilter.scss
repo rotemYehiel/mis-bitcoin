@@ -1,0 +1,20 @@
+.contact-filter {
+    margin: 0.5rem;
+    width: 30vw;
+    input {
+        padding: 1.5vh 1vw;
+        width: 100%;
+    }
+}
+
+@include for-narrow-layout {
+    .contact-filter {
+        width: 80%;
+    }
+}
+
+@include for-mobile-layout {
+    .contact-filter {
+        width: 100%;
+    }
+}

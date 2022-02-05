@@ -1,0 +1,16 @@
+.moves-list {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    .moves-list-ul {
+        flex-direction: column;
+    }
+    h3 {
+        margin: 0;
+        border-bottom: 0.1rem solid $clr6;
+    }
+    .move {
+        display: flex;
+        flex-direction: column;
+    }
+}
